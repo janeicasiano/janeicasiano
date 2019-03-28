@@ -1,5 +1,6 @@
 body {
-    margin:0px;
+    margin: 0px;
+    background-color: #e8b563
 }
 
 #header-1 {
@@ -14,8 +15,6 @@ body {
 ul {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    width: 100%;
     border: 100%;
     color: black;
     border-color: #d4620c;
@@ -23,20 +22,31 @@ ul {
     font-family: arial-black;
     background-color: #d4620c;
     align-items: center;
+    align-content: center;
     margin: 0px;
 }
 
 li {
     list-style: none;
-    align-self: center;
     align-items: center;
     width: 100%;
+    align-content: center;
 }
 
-#home {
+#HOME-h1 {
+    background-color: #e8b563;
+    margin: 0px;
+    font-family: arial-black;
+    width: 290px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+#home-page {
     width: 100%;
     background-color: #e8b563;
-    height: 720px;
+    height: 400px;
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
@@ -48,17 +58,17 @@ li {
     width: 290px;
     height: 475px;
     display: flex;
-    justify-content: space-around;
-    justify-content: flex-start;
     font-style: normal;
-    align-items: flex-start;
+    font-size: 20px;
+    font-family: arial;
+     justify-content: flex-start;
+    justify-content: space-around;
 }
 
 #home-image {
     width: 250px;
     height: 375px;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
     justify-content: space-between;
     align-items: flex-start;
@@ -72,5 +82,4 @@ li {
     justify-content: flex-end;
     justify-content: space-around;
     justify-content: space-between;
-    align-items: flex-start;
 }

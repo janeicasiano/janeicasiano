@@ -31,6 +31,12 @@ li {
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
 }
 
 #delay2 {

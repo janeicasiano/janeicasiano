@@ -4,14 +4,16 @@ body {
 }
 
 #header-3 {
-    width: 100%
-    display:flex;
+    width: 100%;
+    height: auto;
+    display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    border: 0px;
 }
 
-ul {
+#nav {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -24,7 +26,7 @@ ul {
     margin: 0px;
 }
 
-li {
+#nav {
     list-style: none;
     justify-content: center;
     justify-content: space-around;
@@ -32,17 +34,3 @@ li {
     align-items: center;
 }
 
-#delay3 {
-    position: relative;
-    transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
-    font-size: 21px;
-}
-
-#delay3:hover {
-    transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
-    font-size: 36px;
-}

@@ -16,13 +16,14 @@ ul {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    border: 100%;
+    border: 0px;
     color: black;
     border-color: #d4620c;
     font-style: normal;
     font-family: arial-black;
     background-color: #d4620c;
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 li {
@@ -31,7 +32,6 @@ li {
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    text-decoration: none;
 }
 
 a{

@@ -59,6 +59,11 @@ a{
     margin-left: 35px;
 }
 
+#img-1
+{
+    flex-direction: column;
+    align-content: center;
+}
 
 
 

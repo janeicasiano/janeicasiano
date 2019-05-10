@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    width: 1024px;
     background-color: #f5c7c7
 }
 
@@ -59,10 +60,11 @@ a{
     margin-left: 35px;
 }
 
-#img-1
-{
-    flex-direction: column;
-    align-content: center;
+#images {
+    display: flex;
+    margin-left: 35px;
+    justify-content: space-between;
+    margin-right: 35px;
 }
 
 

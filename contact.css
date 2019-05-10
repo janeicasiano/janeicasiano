@@ -53,13 +53,19 @@ a {
 }
 
 #contact-h1 {
-    background-color: #e8b563;
-    margin: 35px;
     font-family: arial-black;
-    width: 290px;
+}
+
+#contact-img {
     display: flex;
-    justify-content: flex-start;
+    margin-left: 35px;
+    width: 398px;
+}
+
+contact-info {
+    display: flex;
+    align-content: center;
     justify-content: space-around;
-    font-size: 28px;
-    margin-left: 60px;
+    justify-content: space-between;
+    font-family: arial;
 }

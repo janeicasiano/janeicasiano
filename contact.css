@@ -54,7 +54,6 @@ a {
 
 #contact-h1 {
     font-family: arial-black;
-    font-size: 28px;
 }
 
 #contact-img {
@@ -63,11 +62,10 @@ a {
     width: 398px;
 }
 
-#contact-info {
+contact-info {
     display: flex;
     align-content: center;
     justify-content: space-around;
     justify-content: space-between;
     font-family: arial;
-    margin-left: 35px;
 }

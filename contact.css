@@ -1,10 +1,11 @@
 body {
     margin: 0px;
-    background-color: #85c9eb
+    background-color: #85c9eb;
 }
 
 #header-4 {
     width: 100%;
+    height: 100%;
     display:flex;
     justify-content: center;
     justify-content: space-around;
@@ -53,13 +54,19 @@ a {
 }
 
 #contact-h1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
     font-family: arial-black;
+    margin-left: 35px;
 }
 
-#contact-img {
+#youtube {
     display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     margin-left: 35px;
-    width: 398px;
 }
 
 contact-info {

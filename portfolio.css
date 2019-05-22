@@ -43,15 +43,15 @@ a{
 #delay3 {
     position: relative;
     transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-delay: 0s;
     font-size: 21px;
 }
 
 #delay3:hover {
     transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-delay: 0s;
     font-size: 36px;
 }
 

@@ -42,15 +42,15 @@ a{
 #delay2 {
     position: relative;
     transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-delay: 0s;
     font-size: 21pt;
 }
 
 #delay2:hover {
     transition-property: font-size;
-    transition-duration: 5s;
-    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-delay: 0s;
     font-size: 36px;
 }
 

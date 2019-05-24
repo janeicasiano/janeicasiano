@@ -84,3 +84,15 @@ a{
     margin-top: auto;
     margin-left: 35px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #d8baeb;
+    }
+    #about-info{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    }
+
+

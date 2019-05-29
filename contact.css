@@ -77,3 +77,26 @@ a {
     font-family: arial;
     margin-left: 35px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #85c9eb;
+    }
+    #youtube {
+        align-content: center;
+    }
+       #delay1 {
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 14px;
+}
+
+#delay1:hover {
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 18px;
+    }
+}

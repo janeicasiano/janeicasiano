@@ -68,5 +68,29 @@ a{
     flex-direction: column;
 }
 
-
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f5c7c7;
+    }
+    #delay3 {
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 14px;
+}
+    #delay3:hover {
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 18px;
+    }
+    #images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        uh
+    Width: 300px;
+}
+}
 

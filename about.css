@@ -93,6 +93,20 @@ a{
         font-size: 14px;
         margin-right: 10px;
     }
+       #delay2 {
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 14px;
+}
+
+#delay2:hover {
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 18px;
+    }
     }
 
 

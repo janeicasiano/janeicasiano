@@ -145,5 +145,19 @@ ease-in-2 {
         height: auto;
         margin-right: 10px;
     }
+    #delay1 {
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 14px;
+}
+
+#delay1:hover {
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    font-size: 18px;
+    }
 
 }
